@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-  width: 250px;
+  width: 270px;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -23,6 +23,7 @@ body {
   background-color: #e0e0e0;
   border-radius: 5px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .buttons {
@@ -60,4 +61,8 @@ button[data-value="="] {
 
 button[data-value="="]:active {
   background-color: #45a049;
+}
+
+.button.wide {
+  grid-column: span 2;
 }
