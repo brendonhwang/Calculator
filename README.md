@@ -25,10 +25,3 @@ To run this project, you need:
 
 - A **web browser** (Chrome, Firefox, Safari, etc.)
 - A **text editor** (VSCode, Sublime Text, etc.)
-
-### Installation
-
-1. Clone or download this repository to your local machine.
-
-   ```bash
-   git clone git@github.com:brendonhwang/Calculator.git
